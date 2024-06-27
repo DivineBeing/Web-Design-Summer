@@ -1,47 +1,30 @@
-body {
-    font-family: Arial, sans-serif;
+header, footer, section, nav {
     background-color: #f0f0f0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav {
-    background-color: #444;
     padding: 10px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
 }
 
-nav ul li {
-    float: left;
-    margin-right: 20px;
+a:link {
+    color: #1a73e8;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+a:visited {
+    color: #4b0082;
 }
 
-section {
-    padding: 20px;
+a:hover {
+    color: #ff6347;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+.text-primary {
+    color: #007bff;
 }
