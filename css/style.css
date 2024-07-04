@@ -1,32 +1,32 @@
 header, footer, section, nav {
-    background-color: #333333;
+    background-color: #2C3E50;
     padding: 10px;
-    color: #ffffff;
+    color: #ECF0F1;
     font-family: 'Comic Sans MS', cursive;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Comic Sans MS', cursive;
     font-weight: normal;
-    color: #ffffff;
+    color: #ECF0F1;
 }
 
 a:link, a:visited {
-    color: #1a73e8;
+    color: #3498DB;
     font-family: 'Comic Sans MS', cursive;
 }
 
 a:hover {
-    color: #ff6347;
+    color: #E74C3C;
     font-family: 'Comic Sans MS', cursive;
 }
 
 .bg-light {
-    background-color: #444444;
-    color: #ffffff;
+    background-color: #34495E;
+    color: #ECF0F1;
 }
 
 .text-primary {
-    color: #007bff;
+    color: #1ABC9C;
     font-family: 'Comic Sans MS', cursive;
 }
