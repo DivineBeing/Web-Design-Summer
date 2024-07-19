@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukuta Divine</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
+
 <body>
     <header class="bg-light">
+        <img src="images/logo.png" alt="Site Logo" class="logo">
         <h1>Welcome to My Website!</h1>
-        <nav>
+        <nav class="main-nav">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#about-avatar">About My Avatar</a></li>
-            <li><a href="#web-development">Web Development Journey</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-        </ul>
-    </nav>
-
     <main>
+        <aside class="content-list">
+            <h2>Content List</h2>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#about-avatar">About My Avatar</a></li>
+                <li><a href="#web-development">Web Development Journey</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+            </ul>
+        </aside>
+
         <section id="about-me">
             <h2>About Me</h2>
             <figure>
                 <a href="images/scooter.jpg" target="_blank">
-                    <img src="images/scooter thumb.jpg" alt="Kerwin Madkins" width="250" height="250">
+                    <img src="images/scooter thumb.jpg" alt="Kerwin Madkins" class="float-left">
                 </a>
                 <figcaption>Kerwin Madkins</figcaption>
             </figure>
@@ -43,19 +48,19 @@
             <h2>About My Avatar: Sukuta</h2>
             <figure>
                 <a href="images/divine.png" target="_blank">
-                    <img src="images/divine thumb.png" alt="Sukuta Avatar" width="250" height="250">
+                    <img src="images/divine thumb.png" alt="Sukuta Avatar" class="float-right">
                 </a>
                 <figcaption>Sukuta, the visionary in music and fashion.</figcaption>
             </figure>
             <p>Sukuta is my alter ego of sorts. My artist and stage name is Sukuta, it is something I came up with around 2018. Sukuta is a true visionary in music and fashion, effortlessly blending these two worlds to create something truly unique. As a professional music engineer and artist, Sukuta's work is nothing short of amazing. He has produced tons of different musical elements, showcasing his talent across a variety of genres and styles. Every piece of music he creates shows his innovative approach and deep understanding of sound engineering, capturing the essence of modern music while pushing its boundaries. Sukuta's talents don't stop at music. He's also made a big impact in the fashion industry. He has designed and produced numerous clothing items that reflect his distinctive style and artistic vision. Every item is crafted with incredible attention to detail, making sure it stands out in the crowded fashion world. Sukuta's entrepreneurial spirit led him to start Divine Records, a record label that embodies his commitment to quality and innovation. Divine Records has become a haven for artists who share his passion for pushing creative boundaries and making music that really resonates with people. The label is known for its diverse talent and its dedication to helping artists grow their careers, providing them with the support and resources they need to succeed in the music industry.</p>
-            <p>For more details, you can visit their website <cite>https://sukutadivinemerch.myshopify.com/</cite>.</p>
+            <p>For more details, you can visit their website <cite><a href="https://sukutadivinemerch.myshopify.com/" target="_blank">https://sukutadivinemerch.myshopify.com/</a></cite>.</p>
         </section>
 
         <section id="web-development">
             <h2>Web Development Journey</h2>
             <figure>
                 <a href="images/coding.jpg" target="_blank">
-                    <img src="images/coding thumb.jpg" alt="Web Development" width="250" height="250">
+                    <img src="images/coding thumb.jpg" alt="Web Development" class="float-left">
                 </a>
                 <figcaption>My Web Development Journey</figcaption>
             </figure>
@@ -108,10 +113,9 @@
 
     <footer>
         <p>&copy; 2024 Kerwin Madkins. All rights reserved.</p>
-        <p><a href="https://www.dallascollege.edu">Dallas College Website</a></p>
+        <p><a href="https://www.dallascollege.edu" target="_blank">Dallas College Website</a></p>
         <p><a href="mailto:madkinskerwin@gmail.com">Email the Webmaster</a></p>
     </footer>
 </body>
+
 </html>
-
-
