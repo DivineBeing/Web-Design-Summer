@@ -52,6 +52,7 @@ aside.content-list {
     padding: 10px;
     box-sizing: border-box;
     margin-right: 20px;
+    border: 1px solid #ccc;
 }
 
 aside.content-list ul {
@@ -67,11 +68,13 @@ aside.content-list ul li {
 aside.content-list ul li a {
     text-decoration: none;
     color: #5DADE2;
+}
 
 section {
     margin-bottom: 20px;
     background-color: #2C3E50;
     padding: 10px;
+    border-radius: 8px;
 }
 
 figure {
@@ -140,4 +143,3 @@ footer a {
     color: #5DADE2;
     text-decoration: none;
 }
-
