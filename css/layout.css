@@ -1,0 +1,86 @@
+/* Layout Styles */
+.box {
+    box-sizing: border-box;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    margin: 0 10px 10px 0;
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    margin: 0 0 10px 10px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+aside.content-list {
+    float: right;
+    width: 20%;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light background for the aside */
+}
+
+main {
+    width: 80vw;
+    float: left;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background for main content */
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+nav.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark background for navigation */
+    color: white;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav.main-nav ul li {
+    float: left;
+}
+
+nav.main-nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #343a40; /* Same as nav background */
+}
+
+nav.main-nav ul li a:hover {
+    background-color: #495057; /* Lighter shade for hover effect */
+}
