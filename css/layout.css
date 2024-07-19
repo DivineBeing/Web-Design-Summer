@@ -31,14 +31,14 @@ aside.content-list {
     position: sticky;
     top: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa; /* Light background for the aside */
+    background-color: #f8f9fa;
 }
 
 main {
     width: 80vw;
     float: left;
     box-sizing: border-box;
-    background-color: #ffffff; /* White background for main content */
+    background-color: #ffffff;
 }
 
 .clear {
@@ -49,7 +49,7 @@ main {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: auto;
 }
 
@@ -57,7 +57,7 @@ nav.main-nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #343a40; /* Dark background for navigation */
+    background-color: #343a40;
     color: white;
 }
 
@@ -78,9 +78,9 @@ nav.main-nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #343a40; /* Same as nav background */
+    background-color: #343a40;
 }
 
 nav.main-nav ul li a:hover {
-    background-color: #495057; /* Lighter shade for hover effect */
+    background-color: #495057;
 }
