@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sukuta Divine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+</head>
+<body>
+    <header class="bg-light">
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <form name="contact-form" method="get" action="success.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <label>Reason for Contact:</label>
+                    <input type="radio" id="inquiry" name="reason" value="inquiry" checked>
+                    <label for="inquiry">General Inquiry</label>
+                    <input type="radio" id="support" name="reason" value="support">
+                    <label for="support">Support</label>
+                    <input type="radio" id="feedback" name="reason" value="feedback">
+                    <label for="feedback">Feedback</label>
+
+                    <label for="newsletter">Subscribe to newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+
+                    <label for="contact-method">Preferred contact method:</label>
+                    <select id="contact-method" name="contact-method">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="mail">Mail</option>
+                    </select>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kerwin Madkins. All rights reserved.</p>
+        <p><a href="https://www.dallascollege.edu">Dallas College Website</a></p>
+        <p><a href="mailto:madkinskerwin@gmail.com">Email the Webmaster</a></p>
+    </footer>
+</body>
+</html>
+
