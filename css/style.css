@@ -3,7 +3,7 @@ a:link, a:visited {
     text-decoration: none;
 
 a:hover, a:active {
-    color: #E74C3C;
+    color: #FFD700;
     text-decoration: underline;
 
 
@@ -34,10 +34,9 @@ footer a {
 }
 
 footer a:hover, footer a:active {
-    color: #E74C3C;
+    color: #FFD700;
 }
 
-/* Form and other specific styles */
 form {
     width: 60%;
     margin: 0 auto;
