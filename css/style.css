@@ -1,3 +1,12 @@
+a:link, a:visited {
+    color: #FFD700;
+    text-decoration: none;
+
+a:hover, a:active {
+    color: #E74C3C;
+    text-decoration: underline;
+
+
 header, footer, section, nav {
     background-color: #2C3E50;
     padding: 10px;
@@ -11,25 +20,24 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ECF0F1;
 }
 
-a:link, a:visited {
+nav.main-nav ul li a {
     color: #FFD700;
-    font-family: 'Comic Sans MS', cursive;
 }
 
-a:hover, a:active {
+nav.main-nav ul li a:hover, nav.main-nav ul li a:active {
     color: #E74C3C;
 }
 
-.bg-light {
-    background-color: #34495E;
-    color: #ECF0F1;
+/* Specific styles for footer links */
+footer a {
+    color: #FFD700;
 }
 
-.text-primary {
-    color: #1ABC9C;
-    font-family: 'Comic Sans MS', cursive;
+footer a:hover, footer a:active {
+    color: #E74C3C;
 }
 
+/* Form and other specific styles */
 form {
     width: 60%;
     margin: 0 auto;
