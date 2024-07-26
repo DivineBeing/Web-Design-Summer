@@ -12,20 +12,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 a:link, a:visited {
-    color: #5DADE2;
-    font-family: 'Comic Sans MS', cursive;
-}
-
-a:hover {
-    color: #E74C3C;
-    font-family: 'Comic Sans MS', cursive;
-}
-
-a.gold-link:link, a.gold-link:visited {
     color: #FFD700;
+    font-family: 'Comic Sans MS', cursive;
 }
 
-a.gold-link:hover {
+a:hover, a:active {
     color: #E74C3C;
 }
 
