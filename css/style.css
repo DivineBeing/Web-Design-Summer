@@ -12,12 +12,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 a:link, a:visited {
-    color: #5DADE2;
+    color: #FFD700;
     font-family: 'Comic Sans MS', cursive;
 }
 
 a:hover {
-    color: #E74C3C;
+    color: #FF4500;
     font-family: 'Comic Sans MS', cursive;
 }
 
