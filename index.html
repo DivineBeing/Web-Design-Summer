@@ -10,23 +10,22 @@
 </head>
 
 <body>
-    <header class="bg-light">
-    <img src="images/logo.png" alt="Site Logo" class="logo">
-    <h1>Welcome to My Website!</h1>
-    <nav class="main-nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="team.html">Team</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="bg-light grid-header">
+        <img src="images/logo.png" alt="Site Logo" class="logo">
+        <h1>Welcome to My Website!</h1>
+        <nav class="main-nav grid-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
-    <main>
-        <aside class="content-list">
-            <h2>Content List</h2>
+    <main class="grid-container">
+        <aside class="content-list grid-aside">
+            <h2>Contents</h2>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#about-avatar">About My Avatar</a></li>
@@ -35,7 +34,7 @@
             </ul>
         </aside>
 
-        <section id="about-me">
+        <section id="about-me" class="grid-main">
             <h2>About Me</h2>
             <figure>
                 <a href="images/scooter.jpg" target="_blank">
@@ -46,7 +45,7 @@
             <p>My name is Kerwin Madkins but I go by Scooter. I am taking this class to learn web development and am pursuing an IT degree here at Dallas College and hope to find a job in the field soon! Nice to meet you all.</p>
         </section>
 
-        <section id="about-avatar">
+        <section id="about-avatar" class="grid-main">
             <h2>About My Avatar: Sukuta</h2>
             <figure>
                 <a href="images/divine.png" target="_blank">
@@ -58,7 +57,7 @@
             <p>For more details, you can visit their website <cite><a href="https://sukutadivinemerch.myshopify.com/" target="_blank">https://sukutadivinemerch.myshopify.com/</a></cite>.</p>
         </section>
 
-        <section id="web-development">
+        <section id="web-development" class="grid-main">
             <h2>Web Development Journey</h2>
             <figure>
                 <a href="images/coding.jpg" target="_blank">
@@ -71,7 +70,7 @@
             <p>Right now, I feel most of this is hard but by the end of this course, I aim to build a fully functional website that showcases my skills and the knowledge I have gained throughout the course.</p>
         </section>
 
-        <section id="schedule">
+        <section id="schedule" class="grid-main">
             <h2>Schedule</h2>
             <table>
                 <caption>Upcoming Events</caption>
@@ -113,10 +112,27 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Kerwin Madkins. All rights reserved.</p>
-        <p><a href="https://www.dallascollege.edu" target="_blank">Dallas College Website</a></p>
-        <p><a href="mailto:madkinskerwin@gmail.com">Email the Webmaster</a></p>
+    <footer class="grid-footer">
+        <div class="footer-column">
+            <h3>External Links</h3>
+            <ul>
+                <li><a href="https://www.dallascollege.edu" target="_blank">Dallas College</a></li>
+                <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a></li>
+                <li><a href="https://www.microsoft.com/en-us/ai" target="_blank">Microsoft AI</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <p>&copy; 2024 <a href="mailto:madkinskerwin@gmail.com">Kerwin Madkins</a></p>
+        </div>
+        <div class="footer-column">
+            <h3>Site Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 
