@@ -12,6 +12,7 @@
 .grid-nav {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+}
 
 .grid-aside {
     grid-column: 3 / 4;
