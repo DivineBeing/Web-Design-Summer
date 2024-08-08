@@ -48,10 +48,6 @@ nav.main-nav ul li {
     margin-right: 10px;
 }
 
-nav.main-nav ul li.right {
-    margin-left: auto;
-}
-
 nav.main-nav ul li a {
     text-decoration: none;
     color: #5DADE2;
@@ -60,7 +56,6 @@ nav.main-nav ul li a {
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
     gap: 20px;
     padding: 20px;
     background-color: #2C3E50;
@@ -105,10 +100,4 @@ footer {
 .footer-column ul li a {
     text-decoration: none;
     color: #5DADE2;
-}
-
-section {
-    background-color: #34495E;
-    padding: 20px;
-    border-radius: 5px;
 }
